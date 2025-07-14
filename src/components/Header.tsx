@@ -36,7 +36,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-2">
             <img src="/src/assets/upex-logo.png" alt="Upex" className="h-8" />
-            <h1 className="text-2xl font-bold text-primary">ФармЛицензия</h1>
+            <h1 className="text-2xl font-bold text-primary">Апекс</h1>
             <span className="ml-2 text-sm text-muted-foreground hidden lg:block">
               Лицензирование фармскладов
             </span>

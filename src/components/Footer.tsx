@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">ФармЛицензия</h3>
+            <h3 className="text-2xl font-bold">Апекс</h3>
             <p className="text-white/80">
               Эксперты по лицензированию фармацевтических складов. 
               Работаем с гарантией результата.
@@ -102,7 +102,7 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/60 text-sm">
-              © {currentYear} ФармЛицензия. Все права защищены.
+              © {currentYear} Апекс. Все права защищены.
             </p>
             <div className="flex gap-6 text-sm text-white/60">
               <a href="#" className="hover:text-white transition-colors">
