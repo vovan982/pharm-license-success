@@ -12,7 +12,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold">ФармЛицензия</h3>
             <p className="text-white/80">
               Эксперты по лицензированию фармацевтических складов. 
-              Работаем только по приказу 646н с гарантией результата.
+              Работаем с гарантией результата.
             </p>
             <div className="flex items-center gap-2 text-secondary">
               <Shield className="h-5 w-5" />
@@ -25,7 +25,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Услуги</h4>
             <ul className="space-y-2 text-white/80">
               <li className="hover:text-white transition-colors cursor-pointer">
-                Лицензирование по 646н
+                Лицензирование фармсклада
               </li>
               <li className="hover:text-white transition-colors cursor-pointer">
                 Аудит фармсклада
@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className="space-y-2 text-white/80">
               <li className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer">
                 <FileText className="h-4 w-4" />
-                Приказ 646н: требования
+                Требования к лицензированию
               </li>
               <li className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer">
                 <Users className="h-4 w-4" />
@@ -72,15 +72,19 @@ const Footer = () => {
             <div className="space-y-3 text-white/80">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>+7 (495) 123-45-67</span>
+                <span>+7 999 909 11 80</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Phone className="h-4 w-4" />
+                <span>+7 985 737 10 12</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>info@pharmlicense.ru</span>
+                <span>perspectiva34@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>Москва, ул. Примерная, 1</span>
+                <span>Косыгина 13</span>
               </div>
             </div>
             

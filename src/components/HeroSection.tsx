@@ -33,8 +33,8 @@ const HeroSection = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-                Получаем лицензию по приказу 646н за 30 дней. Проверим помещение, 
-                подготовим документы и сопроводим на проверке Росздравнадзора.
+                Получаем лицензию Росздравнадзора за 30 дней. Проверим помещение, 
+                подготовим документы и сопроводим на проверке.
               </p>
             </div>
 
@@ -54,7 +54,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Shield className="h-5 w-5 text-secondary" />
-                <span className="font-medium">Работаем по 646н</span>
+                <span className="font-medium">Эксперты лицензирования</span>
               </div>
             </div>
 

@@ -72,7 +72,8 @@ const ContactForm = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
-                    <p className="font-semibold">+7 (495) 123-45-67</p>
+                    <p className="font-semibold">+7 999 909 11 80</p>
+                    <p className="font-semibold">+7 985 737 10 12</p>
                     <p className="text-sm text-muted-foreground">Ежедневно с 9:00 до 21:00</p>
                   </div>
                 </CardContent>
@@ -87,7 +88,7 @@ const ContactForm = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
-                    <p className="font-semibold">info@pharmlicense.ru</p>
+                    <p className="font-semibold">perspectiva34@gmail.com</p>
                     <p className="text-sm text-muted-foreground">Ответим в течение часа</p>
                   </div>
                 </CardContent>
@@ -102,8 +103,8 @@ const ContactForm = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
-                    <p className="font-semibold">Telegram: @pharmlicense</p>
-                    <p className="text-sm text-muted-foreground">WhatsApp: +7 (495) 123-45-67</p>
+                    <p className="font-semibold">Telegram: @farmlicense</p>
+                    <p className="text-sm text-muted-foreground">WhatsApp: +7 999 909 11 80</p>
                   </div>
                 </CardContent>
               </Card>

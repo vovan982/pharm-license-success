@@ -19,22 +19,23 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>+7 (495) 123-45-67</span>
+              <span>+7 999 909 11 80</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>info@pharmlicense.ru</span>
+              <span>perspectiva34@gmail.com</span>
             </div>
           </div>
           <div className="flex items-center gap-2 text-primary">
             <FileText className="h-4 w-4" />
-            <span>Работаем по приказу 646н</span>
+            <span>Эксперты по лицензированию</span>
           </div>
         </div>
 
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
+            <img src="/src/assets/upex-logo.png" alt="Upex" className="h-8" />
             <h1 className="text-2xl font-bold text-primary">ФармЛицензия</h1>
             <span className="ml-2 text-sm text-muted-foreground hidden lg:block">
               Лицензирование фармскладов
