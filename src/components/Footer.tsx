@@ -48,7 +48,9 @@ const Footer = () => {
             <ul className="space-y-2 text-white/80">
               <li className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer">
                 <FileText className="h-4 w-4" />
-                Требования к лицензированию
+                <a href="/requirements" className="hover:underline">
+                  Требования к лицензированию
+                </a>
               </li>
               <li className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer">
                 <Users className="h-4 w-4" />

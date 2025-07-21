@@ -28,14 +28,16 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-2 text-primary">
             <FileText className="h-4 w-4" />
-            <span>Эксперты по лицензированию</span>
+            <a href="/requirements" className="hover:underline">
+              Требования к лицензированию
+            </a>
           </div>
         </div>
 
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-2">
-            <img src="/src/assets/upex-logo.png" alt="Upex" className="h-8" />
+            <img src="/lovable-uploads/7dc2c422-f197-4878-ae3e-fdcda007c5c0.png" alt="Upex" className="h-8" />
             <h1 className="text-2xl font-bold text-primary">Апекс</h1>
             <span className="ml-2 text-sm text-muted-foreground hidden lg:block">
               Лицензирование фармскладов
