@@ -18,19 +18,19 @@ export function ContactModal({ children }: ContactModalProps) {
     {
       name: "Telegram",
       icon: MessageCircle,
-      link: "https://t.me/your_telegram",
+      link: "https://t.me/farmlicense",
       description: "Быстрая связь в мессенджере"
     },
     {
       name: "WhatsApp", 
       icon: MessageCircle,
-      link: "https://wa.me/79000000000",
+      link: "https://wa.me/79999091180",
       description: "Написать в WhatsApp"
     },
     {
       name: "Email",
       icon: Mail,
-      link: "mailto:info@upex.ru",
+      link: "mailto:perspectiva34@gmail.com",
       description: "Отправить письмо"
     }
   ];
