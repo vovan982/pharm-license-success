@@ -1,6 +1,7 @@
 import { FileCheck, Building, Users, Clipboard, Scale, CheckCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { ContactModal } from "@/components/ContactModal";
 
 const ServicesSection = () => {
   const services = [
@@ -119,12 +120,14 @@ const ServicesSection = () => {
                   }`}>
                     {service.price}
                   </div>
-                  <Button 
-                    variant={service.popular ? "secondary" : "default"} 
-                    className="w-full"
-                  >
-                    Заказать услугу
-                  </Button>
+                  <ContactModal>
+                    <Button 
+                      variant={service.popular ? "secondary" : "default"} 
+                      className="w-full"
+                    >
+                      Заказать услугу
+                    </Button>
+                  </ContactModal>
                 </div>
               </CardContent>
             </Card>
@@ -140,9 +143,11 @@ const ServicesSection = () => {
               <p className="text-muted-foreground mb-4">
                 Обсудим ваш проект и подберём оптимальное решение
               </p>
-              <Button variant="hero" size="lg">
-                Получить консультацию
-              </Button>
+              <ContactModal>
+                <Button variant="hero" size="lg">
+                  Получить консультацию
+                </Button>
+              </ContactModal>
             </CardContent>
           </Card>
         </div>

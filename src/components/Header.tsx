@@ -1,6 +1,7 @@
 import { Menu, Phone, Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { ContactModal } from "@/components/ContactModal";
 
 const Header = () => {
   const navItems = [
@@ -58,9 +59,11 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Button variant="hero" size="lg" className="hidden md:flex">
-              Получить консультацию
-            </Button>
+            <ContactModal>
+              <Button variant="hero" size="lg" className="hidden md:flex">
+                Получить консультацию
+              </Button>
+            </ContactModal>
 
             {/* Mobile menu */}
             <Sheet>
@@ -80,9 +83,11 @@ const Header = () => {
                       {item.name}
                     </a>
                   ))}
-                  <Button variant="hero" className="mt-6">
-                    Получить консультацию
-                  </Button>
+                  <ContactModal>
+                    <Button variant="hero" className="mt-6">
+                      Получить консультацию
+                    </Button>
+                  </ContactModal>
                 </div>
               </SheetContent>
             </Sheet>

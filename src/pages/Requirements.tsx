@@ -3,6 +3,8 @@ import Footer from "@/components/Footer";
 import { CheckCircle, FileText, Thermometer, Users, Shield, ClipboardCheck, AlertTriangle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { ContactModal } from "@/components/ContactModal";
 
 const Requirements = () => {
   const requirements = [
@@ -172,12 +174,11 @@ const Requirements = () => {
               <p className="text-muted-foreground mb-6">
                 Наши эксперты помогут вам пройти все этапы лицензирования и подготовить документы
               </p>
-              <a 
-                href="/#contacts" 
-                className="inline-flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
-              >
-                Получить консультацию
-              </a>
+              <ContactModal>
+                <Button variant="hero" size="lg">
+                  Получить консультацию
+                </Button>
+              </ContactModal>
             </div>
           </div>
         </div>

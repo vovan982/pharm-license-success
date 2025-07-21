@@ -2,6 +2,7 @@ import { Shield, CheckCircle, Clock, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroImage from "@/assets/hero-pharma-warehouse.jpg";
+import { ContactModal } from "@/components/ContactModal";
 
 const HeroSection = () => {
   return (
@@ -60,12 +61,16 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-                Получить лицензию
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-4">
-                Бесплатная консультация
-              </Button>
+              <ContactModal>
+                <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+                  Получить лицензию
+                </Button>
+              </ContactModal>
+              <ContactModal>
+                <Button variant="outline" size="lg" className="text-lg px-8 py-4">
+                  Бесплатная консультация
+                </Button>
+              </ContactModal>
             </div>
 
             {/* Trust indicators */}
