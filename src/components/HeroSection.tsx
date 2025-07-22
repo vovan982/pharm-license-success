@@ -6,7 +6,7 @@ import { ContactModal } from "@/components/ContactModal";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center bg-gradient-subtle overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center bg-gradient-subtle overflow-hidden pt-24 md:pt-32">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
